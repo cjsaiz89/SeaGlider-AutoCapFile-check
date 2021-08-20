@@ -1,0 +1,32 @@
+# Lat and long where test is performed. RAD is a window considered good for GPS FIX location in degrees dec [dd.ddd]
+LAT,17.97
+LON,-67.04
+RAD,1.0
+# Values defined for sim dives [AD/sec]
+MIN_spump,9
+MAX_spump,11
+MIN_sbleed,15
+MAX_sbleed,28
+MIN_sroll,500
+MAX_sroll,700
+MIN_spitch,150
+MAX_spitch,250
+# Values defined for real dives [AD/sec]
+MIN_pump,4
+MAX_pump,11
+MIN_bleed,15
+MAX_bleed,28
+MIN_roll,500
+MAX_roll,700
+MIN_pitch,150
+MAX_pitch,250
+# Current limits for sim dives [mA]
+MAXI_spump,2000
+MAXI_sbleed,100
+MAXI_sroll,150
+MAXI_spitch,800
+# Current limits for real dives [mA]
+MAXI_pump,2500
+MAXI_bleed,100
+MAXI_roll,100
+MAXI_pitch,500
